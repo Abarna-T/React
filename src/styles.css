@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+h1{
+    color:aquamarine;
+}
+#container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+#inputs
+{
+    display:flex;
+    flex-direction:column;
+}
+
+input{
+    background-color: aquamarine;
+    outline:0;
+  
+    font-weight: bolder;
+    margin:10px;
+    border-radius: 5px;
+    height:30px;
+}
+#content{
+    margin:40px;
+    border-radius: 10px;
+
+    background-color: #210070;
+}
+#table_item{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#last{
+    align-items:center;
+}
+button{
+    width:50px;
+    margin:10px;
+    height:50px;
+    background-color:aquamarine;
+    border:1px solid aquamarine;
+    outline:0;
+  
+    color: #210070;
+    font-size: larger;
+    font-weight: bolder;
+    border-radius: 5px;
+    
+}
